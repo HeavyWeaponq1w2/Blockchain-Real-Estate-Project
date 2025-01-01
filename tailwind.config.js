@@ -1,4 +1,4 @@
-/*eslint-env node*/
+import * as anim from "tailwindcss-animate";
 /** @type {import('tailwindcss').Config} */
 export default {
   darkMode: ["class"],
@@ -75,5 +75,5 @@ export default {
       },
     },
   },
-  plugins: [await import("tailwindcss-animate")],
+  plugins: [anim],
 };
